@@ -1,0 +1,229 @@
+img {
+	width: 300px;
+}
+div {
+	
+	border: 0px solid red;
+}
+div#chessboard{
+	width: 300px;
+	height: 300px;
+	background-image: url(img/chessboard.jpg);
+	background-size: 300px 300px;
+}
+div#b_rook_1, div#b_rook_2,
+div#w_rook_1, div#w_rook_2,
+div#b_bishop_1, div#b_bishop_2,
+div#w_bishop_1, div#w_bishop_2,
+div#b_queen_1,
+div#w_queen_1,
+div#b_king_1,
+div#w_king_1,
+div#b_knight_1, div#b_knight_2,
+div#w_knight_1, div#w_knight_2,
+div#b_pawn_1, div#b_pawn_2, div#b_pawn_3, div#b_pawn_4, div#b_pawn_5, div#b_pawn_6, div#b_pawn_7, div#b_pawn_8, 
+div#w_pawn_1, div#w_pawn_2, div#w_pawn_3, div#w_pawn_4, div#w_pawn_5, div#w_pawn_6, div#w_pawn_7, div#w_pawn_8 {
+	width: 30px;
+	height: 30px;
+	position: relative;
+	background-image: url(img/chess-figures.png);
+	background-size: 180px 80px;
+	background-repeat: no-repeat;
+	background-clip: content-box;
+}
+div#b_rook_1, div#b_rook_2 {
+	background-position: -1px -5px;
+}
+div#w_rook_1, div#w_rook_2 {
+	background-position: -1px -43px;
+}
+div#b_bishop_1, div#b_bishop_2 {
+	background-position: -31px -5px;
+}
+div#w_bishop_1, div#w_bishop_2 {
+	background-position: -31px -43px;
+}
+div#b_queen_1{
+	background-position: -61px -5px;
+}
+div#w_queen_1{
+	background-position: -61px -43px;
+}
+div#b_king_1{
+	background-position: -91px -5px;
+}
+div#w_king_1 {
+	background-position: -91px -43px;
+}
+div#b_knight_1, div#b_knight_2{
+	background-position: -121px -5px;
+}
+div#w_knight_1, div#w_knight_2{
+	background-position: -121px -43px;
+}
+div#b_pawn_1, div#b_pawn_2, div#b_pawn_3, div#b_pawn_4, div#b_pawn_5, div#b_pawn_6, div#b_pawn_7, div#b_pawn_8 {
+	background-position: -151px -5px;
+}
+div#w_pawn_1, div#w_pawn_2, div#w_pawn_3, div#w_pawn_4, div#w_pawn_5, div#w_pawn_6, div#w_pawn_7, div#w_pawn_8 {
+	background-position: -151px -43px;
+}
+div#b_rook_1 {
+	position: absolute;
+	top: 33px;
+	left: 33px;
+}
+div#b_rook_2 {
+	position: absolute;
+	top: 33px;
+	left: 255px;
+}
+div#w_rook_1 {
+	position: absolute;
+	top: 254px;
+	left: 33px;
+}
+div#w_rook_2 {
+	position: absolute;
+	top: 254px;
+	left: 255px;
+}
+div#b_bishop_1 {
+	position: absolute;
+	top: 33px;
+	left: 96px;
+}
+div#b_bishop_2 {
+	position: absolute;
+	top: 33px;
+	left: 191px;
+}
+div#w_bishop_1 {
+	position: absolute;
+	top: 254px;
+	left: 96px;
+}
+div#w_bishop_2 {
+	position: absolute;
+	top: 254px;
+	left: 191px;
+}
+div#b_queen_1 {
+	position: absolute;
+	top: 33px;
+	left: 128px;
+}
+div#w_queen_1 {
+	position: absolute;
+	top: 254px;
+	left: 160px;
+}
+div#b_king_1 {
+	position: absolute;
+	top: 33px;
+	left: 160px;
+}
+div#w_king_1 {
+	position: absolute;
+	top: 254px;
+	left: 128px;
+}
+div#b_knight_1 {
+	position: absolute;
+	top: 33px;
+	left: 65px;
+}
+div#b_knight_2 {
+	position: absolute;
+	top: 33px;
+	left: 223px;
+}
+div#w_knight_1 {
+	position: absolute;
+	top: 254px;
+	left: 65px;
+}
+div#w_knight_2 {
+	position: absolute;
+	top: 254px;
+	left: 223px;
+}
+div#b_pawn_1 {
+	position: absolute;
+	top: 66px;
+	left: 33px;
+}
+div#b_pawn_2 {
+	position: absolute;
+	top: 66px;
+	left: 65px;
+}
+div#b_pawn_3 {
+	position: absolute;
+	top: 66px;
+	left: 96px;
+}
+div#b_pawn_4 {
+	position: absolute;
+	top: 66px;
+	left: 128px;
+}
+div#b_pawn_5 {
+	position: absolute;
+	top: 66px;
+	left: 160px;
+}
+div#b_pawn_6 {
+	position: absolute;
+	top: 66px;
+	left: 191px;
+}
+div#b_pawn_7 {
+	position: absolute;
+	top: 66px;
+	left: 223px;
+}
+div#b_pawn_8 {
+	position: absolute;
+	top: 66px;
+	left: 255px;
+}
+div#w_pawn_1 {
+	position: absolute;
+	top: 222px;
+	left: 33px;
+}
+div#w_pawn_2 {
+	position: absolute;
+	top: 222px;
+	left: 65px;
+}
+div#w_pawn_3 {
+	position: absolute;
+	top: 222px;
+	left: 96px;
+}
+div#w_pawn_4 {
+	position: absolute;
+	top: 222px;
+	left: 128px;
+}
+div#w_pawn_5 {
+	position: absolute;
+	top: 222px;
+	left: 160px;
+}
+div#w_pawn_6 {
+	position: absolute;
+	top: 222px;
+	left: 191px;
+}
+div#w_pawn_7 {
+	position: absolute;
+	top: 222px;
+	left: 223px;
+}
+div#w_pawn_8 {
+	position: absolute;
+	top: 222px;
+	left: 255px;
+}
