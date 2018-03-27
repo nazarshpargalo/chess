@@ -1,3 +1,2 @@
-Chess
-
-[Page](https://nazarshpargalo.github.io/chess/)
+# pizzamia
+[Page](https://nazarshpargalo.github.io/pizzamia/)

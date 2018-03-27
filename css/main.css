@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css?family=|Open+Sans|Philosoph');
+
+body
+{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Open+Sans' , cursive;
+    font-size: 16px;
+    font-weight: 350;
+
+    background-color: #f0ffff;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+
+    background:
+        -webkit-linear-gradient(45deg, hsla(0, 100%, 27%, 1) 0%, hsla(0, 100%, 27%, 0) 70%),
+        -webkit-linear-gradient(315deg, hsla(37, 93%, 56%, 1) 10%, hsla(37, 93%, 56%, 0) 80%),
+        -webkit-linear-gradient(225deg, hsla(0, 97%, 50%, 1) 10%, hsla(0, 97%, 50%, 0) 80%),
+        -webkit-linear-gradient(135deg, hsla(20, 98%, 49%, 1) 100%, hsla(20, 98%, 49%, 0) 70%);
+    background:
+        linear-gradient(45deg, hsla(0, 100%, 27%, 1) 0%, hsla(0, 100%, 27%, 0) 70%),
+        linear-gradient(135deg, hsla(37, 93%, 56%, 1) 10%, hsla(37, 93%, 56%, 0) 80%),
+        linear-gradient(225deg, hsla(0, 97%, 50%, 1) 10%, hsla(0, 97%, 50%, 0) 80%),
+        linear-gradient(315deg, hsla(20, 98%, 49%, 1) 100%, hsla(20, 98%, 49%, 0) 70%);
+    }
+
+#footer
+{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background: #351800;
+    border-top: 2px solid black;
+}
+
+#footer i
+{
+    font-size: 30px;
+
+    padding: 8px;
+    padding-bottom: 20px;
+
+    color: #bdbdbd;
+}
+
+#footer i:hover
+{
+    color: #ff7878;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+	font-family: 'Open+Sans', sans-serif;;
+    font-weight: 300;
+    color: #333;
+}
+
+h1
+{
+    font-size: 4em;
+}
+
+p
+{
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered
+{
+    text-align: center;
+}
+
+a
+{
+    color: #f85c37;
+}
+
+a:hover,
+a:focus
+{
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+    text-decoration: none;
+
+    color: #7b7b7b;
+    outline: 0;
+}
+
+
+.navbar {
+    font-weight: 800;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-inverse {
+    background: #351800;
+    border: none;
+}
+
+.navbar-toggle:active {
+    background-color: #54051a;
+}
+
+.navbar-nav .navbar-collapse > a:hover {
+    border-bottom: 3px solid #af550c;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+
+.navbar-inverse .navbar-brand {
+    font-size: 22px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    color: #999;
+}
+
+.page-scroll {
+	-webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+}
+
+/*! home */
+
+#headerwrap {
+    display: flex;
+    flex-direction: column;
+
+    width: auto;
+    height: 100vh;
+
+    background: url(../img/header.jpg) no-repeat center top;
+    background-attachment: relative;
+    background-position: center center;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+
+    -background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+#infowrap {
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-top: 45px;
+}
+
+#buywrap
+{
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-top: 35px;
+}
+
+#buywrap_2 {
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-top: 60px;
+
+}
+
+img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.sparkly {
+    text-shadow: 0 0 8px rgba(255,255,255,.7);
+}
+
+.logo {
+    width: auto;
+    height: auto;
+    max-width: 60%;
+    max-height: 60%;
+    min-width: 16em;
+    min-height: 16em;
+    padding-top: 4em;
+}
+
+.logo_1 {
+    font-size: 124px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.red {
+    color: red;
+}
+
+ /* shop */
+
+
+.btn {
+	background-color: #cc6a1a;
+    border: none;
+}
+.btn:hover,
+.btn:active {
+    background-color: #af550c;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+    text-decoration: none;
+    border: none;
+}
+
+.shop {
+    padding-top: 70px;
+}
+.list {
+	justify-content: center;
+}
+.card {
+	display: inline-block;
+	height: auto;
+	width: 250px;
+    margin-top: 50px;
+    padding: 15px 15px 20px 20px;
+    border-radius: 7px;
+    text-align: center;
+    border: 1.5px solid gray;
+
+    background: url(../img/473126707.jpg) no-repeat center top;
+    background-attachment: relative;
+    background-position: center center;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+
+    -background-size: cover;
+    justify-content: center;
+
+-webkit-box-shadow: 0px 0px 87px 6px rgba(3,3,3,0.79);
+-moz-box-shadow: 0px 0px 87px 6px rgba(3,3,3,0.79);
+box-shadow: 0px 0px 87px 6px rgba(3,3,3,0.79);
+}
+.card > img {
+	width: 150px;
+}
+
+.buytitle {
+    color: #dbdbdb;
+    font-size: cover;
+}
+
+.textblock {
+	border-radius: 7px;
+	background-color: #997249;
+	padding-top: 1px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+ /* Замовлення */
+
+ .btn-success {
+    margin-top: 30px;
+    padding-bottom: 20px;
+    height: 60px;
+    width: auto;
+    font-size: 26px;
+    border-radius: 12px;
+ } 
+
+  .btn-success:active {
+    color: #c79b5a;
+ } 
+
+ label {
+    margin-top: 25px;
+    font-size: 18px;
+    color: #dbdbdb;
+ }
+
+.form-control {
+    margin-top: 25px;
+    font-size: 18px;
+    font-family: 'Open+Sans';
+}
+
+.checkcard {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    padding: 0px 15px 0px 15px;
+    border-radius: 7px;
+    align-items: center;
+
+    background:
+        -webkit-linear-gradient(45deg, hsla(9, 93%, 47%, 1) 0%, hsla(9, 93%, 47%, 0) 70%),
+        -webkit-linear-gradient(315deg, hsla(30, 93%, 45%, 1) 10%, hsla(30, 93%, 45%, 0) 80%),
+        -webkit-linear-gradient(225deg, hsla(13, 99%, 48%, 1) 10%, hsla(13, 99%, 48%, 0) 80%),
+        -webkit-linear-gradient(135deg, hsla(0, 97%, 46%, 1) 100%, hsla(0, 97%, 46%, 0) 70%);
+    background:
+        linear-gradient(45deg, hsla(9, 93%, 47%, 1) 0%, hsla(9, 93%, 47%, 0) 70%),
+        linear-gradient(135deg, hsla(30, 93%, 45%, 1) 10%, hsla(30, 93%, 45%, 0) 80%),
+        linear-gradient(225deg, hsla(13, 99%, 48%, 1) 10%, hsla(13, 99%, 48%, 0) 80%),
+        linear-gradient(315deg, hsla(0, 97%, 46%, 1) 100%, hsla(0, 97%, 46%, 0) 70%);
+}
+
+.minus_goods, .plus_goods {
+	border-radius: 2px solid brown;
+	height: auto;
+	min-width: 20px;
+    align-items: right;
+}
+@media (max-width: 720px) {
+    .menu_text {
+        font-size: 1.9em;
+    }
+}
